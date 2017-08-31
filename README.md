@@ -6,7 +6,7 @@ The purpose of this project was to create thoughtful SQL queries for analyzing C
 
 ### CMS’ 2010 Medicare Beneficiary Data ###
 
-The second part of this project makes use of the full set of CMS’ synthetic 2010 Medicare Beneficiary data on Amazon Web Services (AWS). 
+This project makes use of a subset of CMS’ synthetic 2010 Medicare Beneficiary data included within the data directory of this repository. These csv files were used to create  two tables within a PostgreSQL database.
 
 ### Python’s *psycopg2* ###
 
