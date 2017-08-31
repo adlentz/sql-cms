@@ -55,7 +55,6 @@ def disease_age_death(col):
     accepted_cols = (
         "alz_rel_sen",
         "heart_fail",
-        "chronic_kidney",
         "cancer",
         "depression"
     )
@@ -102,7 +101,6 @@ def disease_reimb_resp(col):
     accepted_cols = (
         "alz_rel_sen",
         "heart_fail",
-        "chronic_kidney",
         "cancer",
         "depression"
     )
@@ -150,7 +148,6 @@ def disease_ratio_sex(col):
     accepted_cols = (
         "alz_rel_sen",
         "heart_fail",
-        "chronic_kidney",
         "cancer",
         "depression"
     )
@@ -180,8 +177,8 @@ def disease_ratio_sex(col):
 
 def disease_reimb_race(col):
     """
-    Get the race and average inpatient reimbursement and average outpatient reimbursement
-    for the disease that corresponds to the column name and the state selected.
+    Get the percentage of total reimbursements and percentage of total deaths 
+    for each race grouped by state for the disease that corresponds to the column selected.
 
     Parameters
     ----------
@@ -259,7 +256,6 @@ def disease_death_numbers(col):
     accepted_cols = (
         "alz_rel_sen",
         "heart_fail",
-        "chronic_kidney",
         "cancer",
         "depression"
     )
